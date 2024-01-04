@@ -1,0 +1,214 @@
+html{
+    scroll-behavior: smooth;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+
+body{
+  background-color: darkgray;
+}
+
+
+  button,span{
+    border: none;
+    color: chocolate;
+    background-color:rgb(235, 229, 235);
+    border-radius: 30%;
+  }
+ 
+
+nav{
+  position: sticky !important;
+  width: 100%;
+  height: 50px;
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+a.navbar-brand{
+    font-size: 3rem;
+    font-weight: lighter;
+    font-style: italic;
+    /* box-shadow: 0px 0px 5px rgb(85,85,85); */
+    text-shadow: 2px 6px 10px rgb(85,85,85);
+}
+
+
+h4,h3{
+    color: black;
+    font-size: 10px;
+ 
+}
+.nav-item:hover{
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(185,185,185);
+}
+h2:hover{
+  text-decoration: underline;
+  text-underline-offset: 1rem;
+  text-decoration-color: rgb(185,185,185);
+  cursor: pointer;
+}
+p{
+    text-align: justify;
+}
+
+
+
+ #home{
+    background: url("./portrotate2.JPG");
+    background-position:top ;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-height: 1000px;
+    max-width: 200rem;
+    height: 40%;
+}
+.custom-col{
+    margin-top: 30%;
+}
+i{
+    color: rgb(187, 34, 34);
+    font-size: 30px;
+    border-radius: 20px;
+   
+    
+}
+.spacing{
+    margin-top: 10%;
+
+}
+.bg-light,img{
+    border-radius: 30px;
+}
+
+
+.card-icon{
+    font-size: 1rem;
+    color: black;
+    padding: 10px;
+}
+
+.block{
+    height: .3rem;
+    width: 6rem;
+    background-color: black;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    opacity: 0.5;
+}
+
+
+
+.section__text__p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.icon{
+    cursor: pointer;
+    height: 2rem;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30%;
+    
+}  
+
+
+/* final */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+#myNavber
+{
+    border: 10px;
+    border-color: aqua;
+}
+
+
+
+
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 4px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #5645a0;
+  }
+  
+  /* Style the container/contact section */
+  /* .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  } */
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 10px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 300px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+  }
+  @media screen and (max-width:700px){
+    .flex{
+       color: rgb(50, 146, 172);
+       font-style:italic ;
+       font-weight: bolder;
+       margin-top: 0;
+       font-size: 24px;
+    }
+    .flex1{
+      font-weight: bolder;
+      font-style: normal;
+      font-size: 20px;
+    }
+     
+  
+  }
+  @media screen and (max-width:998px){
+     nav{
+      height: 100px;
+     }
+  }
+
+
+
