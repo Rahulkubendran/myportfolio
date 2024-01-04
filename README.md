@@ -1,1 +1,460 @@
-click to
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" >
+
+
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/regular.min.css" integrity="sha512-TzeemgHmrSO404wTLeBd76DmPp5TjWY/f2SyZC6/3LsutDYMVYfOx2uh894kr0j9UM6x39LFHKTeLn99iz378A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" defer ></script>
+</head>
+<body  style="cursor:grab">
+   
+  
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+      
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#home">Rahul k</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myname" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+
+                
+                
+            </div>
+
+
+                            <div class="collapse navbar-collapse" id="myname">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a href="#home" class="nav-link active" >Home</a>
+                            </li>
+                            <li class="nav-item navbar-right">
+                                <a href="#about" class="nav-link">About</a>
+                            </li>
+                            <li class="nav-item navbar-right">
+                              <a href="#project" class="nav-link">Project</a>
+                          </li>
+                            <li class="nav-item navbar-right">
+                                <a href="#experience" class="nav-link">Experience</a>
+                            </li>
+                            <li class="nav-item navbar-right">
+                                <a href="#qualification" class="nav-link">Qualification</a>
+                            </li>
+                         
+                             <li class="nav-item navbar-right ">
+                                <a href="#skills" class="nav-link">Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                            </li>
+                          
+                        </ul>
+                         </div>
+               </div>
+         </nav>
+</div>
+ 
+
+
+
+
+       <section id="home" >
+        <div class="container well" style="cursor:grab">
+            <div class="row">
+                <div class="col-lg-3 custom-col ">
+             
+                    <div class="top">
+                      <div class="flex1">
+                    <h1 class="display-3" > I'm  Rahul </h1>
+                    <p class="section__text__p2">Front end Developer</p>
+                      </div>
+                    <div class="flex">
+                    <p class="lead" ><h5 >I build things for the web</h5>I'm a Mechanical Engineering interested to web developer and specializing in build (occasionally designing) exceptional digital learning.</p>
+                  
+                       </div>
+                    <div id="socials-container" style="display: flex;">
+           
+                        <img src="./portfoliolinkin.png" alt="my linkedIn profile" class="icon"
+                        onclick="location.href='https:/www.linkedin.com/in/rahul-kubendran-66304518b'" >
+                  
+                        <img src="./portgithublogo.png" alt="my github profile" class="icon"
+                        onclick="location.href=' https:/github.com/Rahulkubendran/Jack-Devil.git' ">
+                          
+                    <a href="#contact" class="btn btn-outline-dark mr-5 px-5" style="height: 8vh;"><i class="ri-arrow-down-circle-fill"></i></a>
+
+
+                    </div>
+                      </div>
+                   
+
+                    </div>
+
+                
+                </div>
+
+            </div>
+        </div>
+       </section>
+   
+
+      <section id="about"  class=bg-light;>
+        <div class="container">
+            <h2  class="text-center py-3">About</h2>
+            <div class="row align-items-center">
+               
+                <div class="col-lg-4 spacing" >
+                    <img class="img-responsive img-thumbnail"    src="./portimg3.jpg" alt="picture" class="img-fluid img-hero">
+                </div>
+                <div class="col-lg-7">
+                    <h4>Details</h4>
+                    <button class="btn btn-outline-dark mr-5 px-5  " data-toggle="collapse" data-target="#box"> <i class="ri-group-fill"></i>Click Me</button>
+                   <div id="box"class="collapse" style=" white;padding: 25px; border-radius: 15% 0 15% 0; cursor: pointer;">
+                    <h4 >Hello,"what's up"</h4>
+                    <p class="lead">My self Rahul K. I am a learning Front-end web development for past one year. I have been working in technologies like HTML5 , CSS3 , Bootstrap , JavaScript , React.js and I have some basic knowledge of Node js  and I have been working on Mechanical field in CNC operator and Quality Assurance and basic UI design. I did some static sites with the help of friends for small clients in my locality. I have started to learn website design and development out of my interest. Now I want to change my career to web design and development because I feel it as more engaging and rewarding career.</p>
+                   
+                    <a href="#" class="btn btn-dark p-2">Read More</a>
+                    <a  href="#home"    class="btn btn-outline-dark mr-5 px-5">Download CV
+                    
+                    </a>
+                </div>
+                </div>
+            </div>
+        </div>
+      </section><br><br><br><br><br><br>
+
+
+      <section id="project">
+        <section id="about"  class=bg-light;>
+            <div class="container">
+                <h2  class="text-center py-3">Project</h2>
+                <div class="row align-items-center">
+               
+                    <div class="col-lg-6 spacing" >
+                        <img class="img-responsive img-thumbnail"    src="./bookyimg.png" alt="picture" class="img-fluid img-hero" style="width: 100%;">
+                        <a href="file:///C:/Users/rahul/OneDrive/Desktop/WebTrainning/html/trailutbe.js/booksky.html" class="btn btn-outline-dark mr-5 px-5" >Booksky</a>
+                    </div>
+                    <div class="col-lg-6">  <br><br>  <br><br>
+                     
+                     <img class="img-responsive img-thumbnail"    src="./portimgcal.jpg" alt="picture" class="img-fluid img-hero" >
+                     <a href="file:///C:/Users/rahul/OneDrive/Desktop/WebTrainning/html/Responsive%20Cal%20numerical.js/calculator.html" class="btn btn-outline-dark mr-5 px-5" >Calculator </a>
+                    </div>
+                   </div>
+                       
+                  
+                    </div>
+                </div>
+            </div>
+                
+
+      </section>    <br><br><br>
+
+     
+   <section id="experience">
+
+    <h2 class="text-center py-3"> Work Experience</h2>
+         <div class="container">
+         
+            <div class="row align-items-center">
+               
+                <div class="col-lg-4 spacing" >
+                 <button  class="btn btn-outline-dark mr-5 px-5  " data-toggle="collapse" data-target="#box1"> <i class="ri-group-fill"></i>Click Me </button>
+                </div>
+                <div class="col-lg-7">
+                    <h4>Details</h4>
+                 
+                   <div id="box1"class="collapse" style="background-color:lightseagreen; color: white;padding: 25px; border-radius: 15% 0 15% 0; cursor: pointer;">
+                    <hr>
+                    <h3><i class="ri-shut-down-fill"></i>&nbsp;CNC Machinist-Production ,Quality Assurance 2022-2023</h3>
+                        <hr>
+                             <p class="lead " ><h4>AquaSub Engineering Coimbatore</h4>Worked as CNC machinist in a reputed water pumps company.My role in the company was to precision parts and components upon the  industry requirement and per formed Quality testing to ensure the components meet  Qualitystandards.</p>
+                      <ul>
+                        <li>CNC Programming</li>
+                        <li> Critical thinging</li>
+                        <li>Solid Works</li>
+                      </ul>
+                      <hr>
+                     
+                      <h3><i class="ri-speak-fill"></i>&nbsp;Srinithi finance </h3>
+                      <hr>
+                         <p class="lead"><h3>Adaptability:</h3> The financial landscape evolves rapidly, and Srinithi learned the importance of staying adaptable to market changes. <br><h3>Team Collaboration:</h3> Effective communication and collaboration proved pivotal in tackling complex financial scenarios.<br><h3>Continuous Learning:</h3><br> Finance is a dynamic field, and  remains committed to continuous learning, exploring new tools and staying abreast of industry trends.In just six months,Srinithi has transitioned from a finance enthusiast to a proficient contributor.</p>
+                   
+                    <a href="#" class="btn btn-dark p-2">Read More</a>
+                </div>
+                </div>
+            </div>
+        </div>
+  
+   </section><hr>
+
+<section id="qualification">
+    <h2 class="text-center py3">Education Qualification</h2><br><br>
+    <div class="container" >
+        <div class="row">
+            <div class="col-md-10 " style="background-color:rgb(202, 223, 222); padding: 30px; text-align: center; margin-left: 2%">
+                <div class="table-responsive" >
+                <table  cellspacing="8"    cellpadding="30" class="table-bordered table-hover" >
+                   <tr>
+                    <th>Course</th>
+                    <th>Institution</th>
+                    <th>Percentage(%)</th>
+                    <th>Year of passing</th>
+                   </tr>
+
+                   <tr>
+                    <td>B.E MECH</td>
+                    <td>SNS college of technology,Coimbatore</td>
+                    <td>7.9%</td>
+                    <td>2020</td>
+                   </tr>
+
+                   <tr>
+                    <td>HSC</td>
+                    <td>St Mary's matric hr sec school,Cumbum,Theni (dt)</td>
+                    <td>81%</td>
+                    <td>2016</td>
+                   </tr>
+
+                   <tr>
+                    <td>SSLC</td>
+                    <td>St Mary's matric hr sec school,Cumbum,Theni (dt)</td>
+                    <td>78%</td>
+                    <td>2014</td>
+                   </tr>
+                </table>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </div>
+</section><br><br>
+
+<section id="skills">
+    <div class="container mt-3">
+        <div class="col-md-9">
+        <h2 class="text-center py3">Skills</h2><br>
+        <h3>HTML</h3>
+        <div class="progress">
+            <div class="progress-bar bg-secondary" style="width:90%">90%</div>
+          </div><br>
+      
+        <!-- Blue -->
+        <h3>CSS</h3>
+        <div class="progress">
+          <div class="progress-bar " style="width:85%">85%</div>
+        </div><br>
+      
+        <!-- Green -->
+        <h3>JAVASCRIPT</h3>
+        <div class="progress">
+          <div class="progress-bar bg-success" style="width:70%">70%</div>
+        </div><br>
+      
+        <!-- Turquoise -->
+        <h3>BOOTSTRAP</h3>
+        <div class="progress">
+          <div class="progress-bar bg-info" style="width:80%">80%</div>
+        </div><br>
+      
+        <!-- Orange -->
+        <h3>MYSQL</h3>
+        <div class="progress">
+           <div class="progress-bar bg-warning" style="width:75%">75%</div>
+        </div><br>
+      
+        <!-- Red -->
+        <h3>PHP</h3>
+        <div class="progress">
+          <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width:80%">80%</div>
+        </div><br>
+      
+      
+     <!-- Dark Grey -->\<h3>REACT</h3><div class="progress">
+          <div class="progress-bar bg-dark" style="width:70%">70%</div>
+        </div>
+      </div>
+    </div>
+
+</section>
+<hr>
+
+
+
+    
+</section>
+<section id="contact">
+
+<div class="container">
+    <div style="text-align:center">
+      <h2>Contact Us</h2>
+    
+    </div>
+    <div class="row">
+      <div class="column">
+        <img src="./map logo.webp" style="width:100%"><br><br>
+        <a href="#home" class="btn btn-outline-dark mr-5 px-5"><i class="ri-arrow-up-circle-fill"></i></a>
+      </div>
+      <div class="column">
+        <form method="post"  action="/sample1.php">
+           
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="fname" placeholder="Your name.." required>
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lname" placeholder="Your last name.." required>
+          <label for="email" style="padding: 10px;">Email</label>
+          <input  type="email" id="email" name="email" placeholder="@email.com" required>
+          <label for="pwd">Password</label>
+          <input type="password" id="password" name="pwd" placeholder="pwd" required>
+         
+        
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px" required></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+<div class="container my-5">
+    <!-- Footer -->
+    <h2 class="text-center py3">Footer</h2>
+    <footer class="text-center text-white" style="background-color:lightseagreen">
+      <!-- Grid container -->
+      <div class="container">
+        <!-- Section: Links -->
+        <section class="mt-5">
+          <!-- Grid row-->
+          <div class="row text-center d-flex justify-content-center pt-5">
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#home" class="text-white">Home</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#about" class="text-white">About</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#experience" class="text-white">Experience</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#skills" class="text-white">Skills</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+  
+            <!-- Grid column -->
+            <div class="col-md-2">
+              <h6 class="text-uppercase font-weight-bold">
+                <a href="#contact" class="text-white">Contact</a>
+              </h6>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-5" />
+  
+        <!-- Section: Text -->
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                distinctio earum repellat quaerat voluptatibus placeat nam,
+                commodi optio pariatur est quia magnam eum harum corrupti
+                dicta, aliquam sequi voluptate quas.
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- Section: Text -->
+  
+        <!-- Section: Social -->
+        <section class="text-center mb-5">
+          <a href="" class="text-white me-4">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="'https:/www.linkedin.com/in/rahul-kubendran-66304518b'" class="text-white me-4">
+            <i class="ri-linkedin-box-fill"></i>
+          </a>
+          <a href="https:/github.com/Rahulkubendran/Jack-Devil.git'" class="text-white me-4">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="" class="text-white me-4">
+            <i class="ri-whatsapp-line"></i>
+          </a>
+     
+        </section>
+        <!-- Section: Social -->
+      </div>
+      <!-- Grid container -->
+  
+      <!-- Copyright -->
+      <div
+           class="text-center p-3"
+           style="background-color: rgba(0, 0, 0, 0.2)"
+           >
+        © 2020 Copyright:
+        <a class="text-white" href="https://mdbootstrap.com/"
+           >MDBootstrap.com</a
+          >
+      </div>
+      <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+  </div>
+
+
+<script></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
